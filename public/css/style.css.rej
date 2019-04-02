@@ -1,0 +1,24 @@
+diff a/public/css/style.css b/public/css/style.css	(rejected hunks)
+@@ -543,18 +543,19 @@
+     position: absolute;
+     background-color: #fff;
+     border: medium none;
+-    border-radius: 0;
++    border-radius: 3px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+     display: block;
+     left: auto;
+     top: 150%;
+     opacity: 0;
+-    padding: 20px;
++    padding: 30px;
+     right: 0;
+     transition: all 0.3s ease 0s;
+     visibility: hidden;
+-    width: 280px;
++    width: 320px;
+     z-index: 99999;
++    border-color: #32CD32
+ }
+ .header-mid-area .my-cart ul > li:hover .mini-cart-sub {
+     opacity: 1;
